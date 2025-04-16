@@ -1,0 +1,33 @@
+{
+  "name": "simple-authorizenet-sdk",
+  "version": "1.0.0",
+  "description": "Simple AuthorizeNet SDK for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/simple-authorizenet-sdk"
+  },
+  "keywords": [
+    "authorize",
+    "authorize.net",
+    "AuthorizeNet"
+  ],
+  "devDependencies": {
+    "eslint": "8.36.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-standard": "4.1.0"
+  },
+  "dependencies": {
+    "https-proxy-agent": "5.0.1",
+    "request": "2.88.2",
+    "request-promise": "4.2.6",
+    "socks-proxy-agent": "7.0.0"
+  }
+}
