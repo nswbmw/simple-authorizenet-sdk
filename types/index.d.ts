@@ -17,5 +17,5 @@ export interface AuthorizeNetOptions {
 
 export default class AuthorizeNet {
   constructor (options?: AuthorizeNetOptions)
-  execute (data: any): Promise<any>
+  execute<T = any> (data: any): Promise<T>
 }
