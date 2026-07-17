@@ -1,3 +1,8 @@
+## v2.1.1 / 2026-07-17
+
+- fix: proxy validation
+- chore: update dependencies
+
 ## v2.1.0 / 2025-12-01
 
 - feat: export worker.js
